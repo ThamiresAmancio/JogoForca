@@ -40,13 +40,15 @@ guessedWord() {
 
 
 numbersWrongs() {
-  const ltr = this.state.guessed.has(ltr) ? ltr : 'Número errado : ' + this.state.nWrong
-  return ltr
+  const ltr = 0
+  const letras = this.state.guessed.has(ltr) ? ltr : 'Número errado : ' + this.state.nWrong
+  return letras
 }
 
 numbersWrongsAlt () {
-  const alt = this.state.guessed.has(alt) ? alt :  this.state.nWrong
-  return alt
+  const alt = 0 
+  const alts = this.state.guessed.has(alt) ? alt :  this.state.nWrong
+  return alts
 }
 
 /** handleGuest: handle a guessed letter:
@@ -118,6 +120,9 @@ venceuPerdeu() {
     return this.perdeu()
   }
 }
+
+
+
 
 
 render() {
