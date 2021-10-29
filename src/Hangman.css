@@ -1,0 +1,99 @@
+body{
+  height: 100%;
+}
+
+.Hangman {
+  width: 600px;
+
+  color: black;
+  text-align: center;
+  zoom: 1.3;
+}
+
+.Hangman img {
+  border: 10px solid white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.27),
+    0 0 40px rgba(0, 0, 0, 0.06) inset;
+  height: 100%;
+}
+
+.Hangman h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  margin-bottom: 0.1em;
+  margin-top: 0;
+}
+
+.Hangman-word {
+  letter-spacing: 1em;
+  margin: 0.4em -1em 0.2em 0;
+  font-size: 2rem;
+}
+
+.Hangman-btns {
+  text-align: center;
+  display: inline-block;
+  width: 250px;
+  margin-top: 0;
+}
+
+.btn {
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 30px;
+  margin: 5px 2px 2px 2px;
+  letter-spacing: 1px;
+  outline: none;
+  background: #07ff83;
+  color: #fff;
+  box-shadow: 0 6px #07ff83;
+  border-radius: 5px;
+  padding-top: 4px;
+}
+
+.btn:hover {
+  background-color: #07ff83;
+}
+
+.btn:disabled {
+  background: #bdbdbd;
+  color: #eeeeee;
+  box-shadow: 0 6px #9e9e9e;
+}
+
+
+
+.letra {
+  font-size: 1.9rem;
+}
+
+.perdeu{
+  font-size: 1.2rem;
+  color: red;
+}
+
+.venceu{
+  font-size: 1.2rem;
+  color: green;
+}
+
+.button_reiniciar { 
+  width: 140px;
+  height: 45px;
+  background-color: red;
+  color: white;
+  border-radius: 6px 0px 6px 0px;
+
+  border: none;
+}
+
+.button_venceu { 
+  width: 140px;
+  height: 45px;
+  background-color: green;
+  color: white;
+  border-radius: 6px 0px 6px 0px;
+  border: none;
+}
